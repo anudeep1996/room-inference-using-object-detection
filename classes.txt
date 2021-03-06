@@ -1,0 +1,9 @@
+bed
+oven
+refrigerator
+sink
+couch
+tv
+toilet
+microwave
+dining table

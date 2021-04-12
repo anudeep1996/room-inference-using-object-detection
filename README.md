@@ -6,6 +6,7 @@ In this project, we are mainly deciding the kind of room depending on the object
 ##Aim:  The aim of the project is to sort the room images when given in a batch depending on the order we want to display them using the Yolo framework.
 
 ##Dataset:
+
 The Dataset has 9 categories like the bed, oven, refrigerator, sink, couch, tv, microwave, dining table, etc. and each category has at least 500 images and 32,260 images totally. The size of the data is 18GB.
 All of the images are in jpeg format.
 We have downloaded the data from various websites like open images and coco images datasets.

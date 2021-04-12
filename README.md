@@ -52,7 +52,7 @@ weights: weights file to apply transfer learning, you can find them here.
 device: to select the training device, “0” for GPU, and “cpu” for CPU.
 This command will start the model training immediately. I have decided to train the model for 50 epochs.
 
-## Results for YOLO v5m and v5x models:
+## Training Results for YOLO v5m and v5x models:
 RuntimeError: CUDA out of memory. Tried to allocate 126.00 MiB (GPU 0; 14.76 GiB total capacity; 3.71 GiB already allocated; 80.75 MiB free; 3.90 GiB reserved in total by PyTorch) 
 I am getting the above error for the v5m and v5x models. 
 I will be using the google cloud platform or colab pro for better training of the model and for better results.

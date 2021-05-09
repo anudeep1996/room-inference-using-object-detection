@@ -1,0 +1,2 @@
+#download labels to this folder from the link below and move this .txt file into other directory
+https://drive.google.com/drive/folders/1SvI6Dnel6Olk-AX-DQeEf64KcqnQ1iYK?usp=sharing

@@ -1,0 +1,4 @@
+oven
+refrigerator
+sink
+microwave

@@ -1,0 +1,3 @@
+#download final model weights to this directory.
+#best.pt represents the weights of best iteration and last.pt represents the weights of last iteration.
+https://drive.google.com/drive/folders/1lmBjRk98W-8L-YPzZM2HlaJcx3Q4mXKJ?usp=sharing

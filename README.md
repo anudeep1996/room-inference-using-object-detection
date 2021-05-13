@@ -64,4 +64,5 @@ Main inspiration to take COCO pre-trained weights is the COCO dataset consists o
 End layers are modified from 80 to 8 and have experimented with various variants of YOLOv5 (yolov5s, yolov5m, yolov5l and yolov5x) by tuning multiple parameters for the model to train on Colab as the computing power for training is limited.
 Developed an object detection system that can identify the 8 objects from images.
 The identified objects are then passed into a rule inference engine which returns the room.
+
 ![image](https://user-images.githubusercontent.com/62025109/118107522-d721de80-b3ac-11eb-9aa9-d7edd70bee74.png)

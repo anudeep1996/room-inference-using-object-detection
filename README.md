@@ -65,4 +65,3 @@ End layers are modified from 80 to 8 and have experimented with various variants
 Developed an object detection system that can identify the 8 objects from images.
 The identified objects are then passed into a rule inference engine which returns the room.
 
-![image](https://user-images.githubusercontent.com/62025109/118107522-d721de80-b3ac-11eb-9aa9-d7edd70bee74.png)

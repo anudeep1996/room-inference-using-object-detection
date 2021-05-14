@@ -7,7 +7,8 @@ In this project, we are mainly deciding the kind of room depending on the object
 
 ## Dataset:
 
-The Dataset has 9 categories like the bed, oven, refrigerator, sink, couch, tv, microwave, dining table, etc. and each category has at least 500 images and 32,260 images totally. The size of the data is 18GB.
+The Dataset consists of 8 categories -- bed, oven, refrigerator, sink, couch, tv, microwave, dining table. 7 classes contains at least 1000 images and  1 class contains 600 
+7600 images totally. The size of the data is 1.1GB.
 All of the images are in jpeg format.
 We have downloaded the data from various websites like open images and coco images datasets.
 For the open images dataset, the downloaded images have XML extension documents we need to convert them into text documents.
@@ -56,6 +57,7 @@ RuntimeError: CUDA out of memory. Tried to allocate 126.00 MiB (GPU 0; 14.76 GiB
 I am getting the above error for the v5m and v5x models. 
 I will be using the google cloud platform or colab pro for better training of the model and for better results.
 I was thinking of using the YOLOv3 since it will be using less complicated architecture
+###### The above errors have taken place when we have used the google collab version and when have taken the the professional version we were able to process that 
 
 ## Modelling
 - Used transfer learning to train the model. Pre-trained weights are publicly available, which are obtained from training  YOLOV5 model on MS-COCO dataset 

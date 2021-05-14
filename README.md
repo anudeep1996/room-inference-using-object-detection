@@ -45,13 +45,12 @@ Move to the directory and use the following command to start training.
 
 img: size of the input image
 
-batch: batch size
-
-epochs: number of epochs
-data: YAML file which was created in step 3
-cfg: model selection YAML file. I have chosen “s” for this tutorial.
-weights: weights file to apply transfer learning, you can find them here.
-device: to select the training device, “0” for GPU, and “cpu” for CPU.
+-batch: batch size
+-epochs: number of epochs
+-data: YAML file which was created in step 3
+-cfg: model selection YAML file. I have chosen “s” for this tutorial.
+-weights: weights file to apply transfer learning, you can find them here.
+-device: to select the training device, “0” for GPU, and “cpu” for CPU.
 This command will start the model training immediately. I have decided to train the model for 50 epochs.
 
 ## Training Results for YOLO v5m and v5x models:

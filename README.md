@@ -3,7 +3,7 @@
 Scene recognition is one of the primary responsibilities of Computer vision. Computer Vision is described as a field of study which seeks to develop techniques to help computers "see" and understand the content of digital images, such as photographs and videos. The kind of room can be sorted mainly on the items that are present in it. You only look once  (YOLO) is a real-time object detection system that can precisely locate multiple objects in a single frame. It's incredibly fast, according to the official Yolo website, it's 1000x faster than R-CNN and 100x faster than Fast R-CNN.
 In this project, we are mainly deciding the kind of room depending on the objects that are most commonly available in it. For instance, a user who is uploading the pictures on the website for a house sale/rent can just upload the pictures, the sorting of the images can be done by detecting the room. Also, it can be used for applications like Airbnb, the people who are uploading the pictures to rent a room can easily upload the pictures and the sorting can be done in the order we want to display on the website.
 
-## Aim: The aim of the project is to sort the room images when given in a batch depending on the order we want to display them using the Yolo framework.
+## Aim: The aim of the project is to identify the key objects in an image and detect the room
 
 ## Dataset:
 
@@ -14,7 +14,7 @@ We have downloaded the data from various websites like open images and coco imag
 For the open images dataset, the downloaded images have XML extension documents we need to convert them into text documents.
 Source: https://cocodataset.org/#explore
 https://storage.googleapis.com/openimages/web/visualizer/index.html?set=train&type=detection&c=%2Fm%2F03dnzn
-
+#### The link for the dataset which I have used are avaliable in the phase-3 under the section data. 
 ## Planned Framework: 
 The overall framework of the scene recognition method is based on the YOLO algorithm.
 The objects detected from YOLO are then passed into the rule inference engine which identifies the room. 

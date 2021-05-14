@@ -41,17 +41,15 @@ While training I will be passing the YAML file to the above models.
 Now everything is configured and we are ready to train our YOLOv5 model!
 Move to the directory and use the following command to start training.
 
-## !python train.py --img 640 --batch 16 --epochs 50 --data room.yaml --weights yolov5m.pt 
-
-img: size of the input image
-
+## !python train.py --img 640 --batch 16 --epochs 100 --data room.yaml --weights yolov5m.pt 
+This command will start the model training immediately. I have decided to train the model for 100 epochs.
+- img: size of the input image
 - batch: batch size
 - epochs: number of epochs
--data: YAML file which was created in step 3
--cfg: model selection YAML file. I have chosen “s” for this tutorial.
--weights: weights file to apply transfer learning, you can find them here.
--device: to select the training device, “0” for GPU, and “cpu” for CPU.
-This command will start the model training immediately. I have decided to train the model for 50 epochs.
+- data: YAML file which was created in step 3
+- cfg: model selection YAML file. I have chosen “s” for this tutorial.
+- weights: weights file to apply transfer learning, you can find them here.
+- device: to select the training device, “0” for GPU, and “cpu” for CPU.
 
 ## Training Results for YOLO v5m and v5x models:
 RuntimeError: CUDA out of memory. Tried to allocate 126.00 MiB (GPU 0; 14.76 GiB total capacity; 3.71 GiB already allocated; 80.75 MiB free; 3.90 GiB reserved in total by PyTorch) 

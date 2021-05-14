@@ -66,4 +66,13 @@ I was thinking of using the YOLOv3 since it will be using less complicated archi
 - Developed an object detection system that can identify the 8 objects from images.
 - The identified objects are then passed into a rule inference engine which returns the room.
 
- 
+ ## Problems faced
+- Dataset diversity
+- When the architecture's backbone is changed, it is hard to accomplish because pre-trained weights are not usable in this architecture.
+-More GPUs are required to train the Coco data set on the newly created architecture.
+- If I was able to complete what I was trying to achieve, the computation time will be probably half of what we are achieving, and the model will be much lighter.
+
+## Future work
+- With enough computation power, model with modified architecture can be trained. The computation time will significantly reduce the inference speed by half of what we are achieving right now, as the proposed model architecture is lighter.
+- This can be extended to detect more rooms/objects to make it more robust.
+

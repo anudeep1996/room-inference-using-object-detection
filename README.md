@@ -45,8 +45,8 @@ Move to the directory and use the following command to start training.
 
 img: size of the input image
 
--batch: batch size
--epochs: number of epochs
+- batch: batch size
+- epochs: number of epochs
 -data: YAML file which was created in step 3
 -cfg: model selection YAML file. I have chosen “s” for this tutorial.
 -weights: weights file to apply transfer learning, you can find them here.

@@ -32,10 +32,10 @@ We will be modifying the YAML files to describe our dataset parameters. Please r
 
 ## Training:
 To train the YOLO v5 model Glenn have proposed 4 versions:
-yolov5-s which is a small version
-yolov5-m which is a medium version
-yolov5-l which is a large version
-yolov5-x which is an extra-large version
+1. yolov5-s which is a small version
+2. yolov5-m which is a medium version
+3. yolov5-l which is a large version
+4. yolov5-x which is an extra-large version
 
 While training I will be passing the YAML file to the above models.
 Now everything is configured and we are ready to train our YOLOv5 model!
@@ -58,9 +58,10 @@ I will be using the google cloud platform or colab pro for better training of th
 I was thinking of using the YOLOv3 since it will be using less complicated architecture
 
 ## Modelling
-Used transfer learning to train the model. Pre-trained weights are publicly available, which are obtained from training  YOLOV5 model on MS-COCO dataset 
-Main inspiration to take COCO pre-trained weights is the COCO dataset consists of 80 general and household classes which overlapped with the key objects used to identity a room
-End layers are modified from 80 to 8 and have experimented with various variants of YOLOv5 (yolov5s, yolov5m, yolov5l and yolov5x) by tuning multiple parameters for the model to train on Colab as the computing power for training is limited.
-Developed an object detection system that can identify the 8 objects from images.
-The identified objects are then passed into a rule inference engine which returns the room.
+- Used transfer learning to train the model. Pre-trained weights are publicly available, which are obtained from training  YOLOV5 model on MS-COCO dataset 
+- Main inspiration to take COCO pre-trained weights is the COCO dataset consists of 80 general and household classes which overlapped with the key objects used to identity a room
+- End layers are modified from 80 to 8 and have experimented with various variants of YOLOv5 (yolov5s, yolov5m, yolov5l and yolov5x) by tuning multiple parameters for the model to train on Colab as the computing power for training is limited.
+- Developed an object detection system that can identify the 8 objects from images.
+- The identified objects are then passed into a rule inference engine which returns the room.
 
+ 

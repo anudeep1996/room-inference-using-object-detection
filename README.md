@@ -44,7 +44,9 @@ Move to the directory and use the following command to start training.
 ## !python train.py --img 640 --batch 16 --epochs 50 --data room.yaml --weights yolov5m.pt 
 
 img: size of the input image
+
 batch: batch size
+
 epochs: number of epochs
 data: YAML file which was created in step 3
 cfg: model selection YAML file. I have chosen “s” for this tutorial.
